@@ -1,0 +1,290 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.left-div{
+	background:#D9AA36;
+	height: 750px;
+	float: left;
+	width:11%;
+	
+}
+.left-div2{
+	background:#ffffff;
+	height: 750px;
+	float: left;
+	width:11%;
+	
+}
+
+.contact-us-container{
+	padding: 25px;
+	margin-top: 50px;
+}
+
+.right-div{
+	background:#ffd135;
+	height: 750px;
+	float: left;
+	width: 89%;
+}
+
+.right-div2{
+	background:#f4f4f4;
+	height: 750px;
+	float: left;
+	width: 89%;
+}
+.home-page-text{
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	color: #7c3e01;
+	font-family: 'gotham';
+	margin-left:10px;
+}
+.side-menu{
+	height: 150px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+
+}
+.icon-side-menu{
+	text-align: center;
+	font-size: 18px;
+	opacity: 1;
+	margin-top: 30px;
+}
+.img-container{
+	margin: 90px auto 0px auto;
+	width: 418px;
+	height: 388px;
+}
+.btn-subscirb{
+	width: 119px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #a95300;
+    text-align: center;
+    border-color:#a95300;
+}
+button:focus{outline:0;}
+.btn-subscirb:hover{
+	background: #9c4d00;
+}
+.home{
+	background: #a95300;
+}
+.about{
+	background: rgba(169, 83, 0,0.9);
+}
+.contact{
+	background: rgba(169, 83, 0,0.8);
+}
+.facebook{
+	background: rgba(169, 83, 0,0.7);
+}
+.twitter{
+	background: rgba(169, 83, 0,0.6);
+}
+.linkedin{
+	background: rgba(169, 83, 0,0.5);
+}
+
+.home2{
+	background: #2a2a2b;
+}
+.about2{
+	background: rgba(42,42,43,0.9);
+}
+.contact2{
+	background: rgba(42,42,43,0.8);
+}
+.facebook2{
+	background: rgba(42,42,43,0.7);
+}
+.twitter2{
+	background: rgba(42,42,43,0.6);
+}
+.linkedin2{
+	background: rgba(42,42,43,0.5);
+}
+.centered{
+	display: block;
+	text-align: center;
+	margin: 0,0,0,100px;
+
+}
+.red{
+	color:#f26921;
+
+}
+.connect{
+	font-size: 20px;
+	color:#a95300;
+	margin-left:-40px;
+
+}
+.connect:hover{
+	font-size: 20px;
+	color:#7c3e01;
+	text-decoration : none;
+	cursor : pointer;
+}
+strong{
+	font-size: 20px;
+}
+h1{
+	text-align:left;
+	margin-left:425px;
+	font-size: 48px;
+}
+.abtus{
+	margin-top: 50px;
+}
+
+.vh {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding:0;
+  position: absolute;
+  width: 1px;
+}
+
+.animation-container {
+  display: inline-block;
+  vertical-align:top;
+  position: relative;
+}
+.animation-container >.words {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation-duration:8s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease;
+  min-width:350px;
+  margin-left: -3px;
+  font-size: 48px;
+}
+.animation-container >.words:nth-of-type(1) {
+  animation-name: animation1;
+  animation-delay: 0s;
+}
+.animation-container > .words:nth-of-type(2) {
+  animation-name: animation2;
+  animation-delay: 1.0s;
+}
+.animation-container >.words:nth-of-type(3) {
+  animation-name: animation3;
+  animation-delay: 3.0s;
+}
+
+@keyframes animation1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+@keyframes animation2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  70% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+@keyframes animation3 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  45% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  65% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  
+
+
